@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="left-col">
+        <div class="left-top">
+            <div class="logo-container">
+                <img class="odin-logo" src="images/odin.png" alt="Odin logo"><p>ODIN</p>
+                </div>
+            <div class="logo-background"></div>
+        </div>
+    </div>
+
+    <div class="right-col">
+
+        <div class="right-top">
+            <div class="right-top-text">
+                <p>This is not a real online service! You know you need something like like this in your life to help you realize your deepest dreams. Sign up now to get started.</p>
+                <br>
+                <p>You know what to do. 
+            </div>
+        </div>
+
+        <div class="right-mid">
+
+            <div class="right-mid-cont">
+                <p>Let's do this!</p>
+
+                <form id="form1" action="#" method="get">
+
+                    <div class="inputs">
+
+                        <div class="left-inputs">
+
+                            <label for="first_name">FIRST NAME</label>
+                            <input type="text" id="first_name" required></input>
+
+                            <label for="user_email">EMAIL</label>
+                            <input type="email" id="user_email" name="user_email" placeholder="john.doe@mail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required></input>
+
+                            <label>PASSWORD</label>
+                            <input id="password" type="password"></input>
+
+                        </div>
+
+                        <div class="right-inputs">
+
+                            <label for="last_name">LAST NAME</label>
+                            <input type="text" id="last_name" required></input>
+
+                            <label for="phone">PHONE NUMBER</label>
+                            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"></input>
+
+                            <label for="password">CONFIRM PASSWORD</label>
+                            <input id="password-conf" type="password"></input>
+
+                        </div>
+
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+
+        <div class="right-bot">
+
+            <div class="right-bot-cont">
+
+                <button class="signup-btn" type="submit" form="form1">Create Account</button>
+                <p>Already have an account? <a href="url">Log in</a></p>
+
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
+</html>

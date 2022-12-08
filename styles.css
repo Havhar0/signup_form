@@ -1,0 +1,211 @@
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'norsebold';
+    src: url('font/norse-bold-webfont.woff2') format('woff2'),
+         url('font/norse-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+
+body{
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+.left-col{
+
+    max-width: 560x; width: 30%;
+    height: auto;
+    background-image: url(images/background.jpg);
+    /*background-image: cover;*/
+}
+
+.left-top{
+    width: 100%;
+    height: 35%;
+    position: relative;
+}
+
+.logo-container{
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 170px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    display: flex;
+    z-index : 2;
+    font-family: "norsebold";
+    font-size: 110px;
+    overflow: hidden;
+}
+
+
+.odin-logo{
+    height: 130px;
+    width: auto;
+}
+
+.logo-background{
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 170px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    z-index : 1;
+}
+
+
+
+.right-col{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: auto;
+    background-color: #f9fafb;
+}
+
+.right-top{
+    width: 100%;
+    height: 35%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.4em;
+    width: 75%;
+    height: 35%;
+    position: relative;
+    
+}
+
+
+
+.right-top-text{
+
+    position: absolute;
+    overflow: hidden;
+    left: 90px;
+    bottom: 90px;
+
+}
+
+
+.right-mid{
+    width: 100%;
+    height: 35%;
+    background-color: white;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.right-mid-cont{
+    
+    position: absolute;
+    left: 90px;
+    top: 45px;
+    background-color: white;
+    
+}
+
+.right-mid-cont p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1.4em;
+}
+
+.right-bot{
+    width: 100%;
+    height: 30%;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+input, label {
+    display:block;
+}
+
+input {
+    border-radius: 5px;
+    border: 1px solid rgb(183, 183, 183);
+    height: 45px;
+    width: 300px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.2em;
+    padding-left: 10px;
+}
+
+label {
+
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.2em;
+    margin-top: 15px;
+}
+
+.right-bot-cont{
+
+    position: relative;
+
+}
+
+.signup-btn{
+
+    position: absolute;
+    left: 90px;
+    top: 40px;
+    height: 45px;
+    padding: 0px 45px;
+    border-radius: 5px;
+    background-color: #6dbba3;
+    color: white;
+    font-size: 1.2em;
+    border-style: none;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+    
+
+.signup-btn:hover{
+
+    background-color: #8ad0bb;
+    /*
+    transition: transform .5s ease;
+    transform: scale(1.03);
+    */
+}
+
+.right-bot-cont p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    left: 92px;
+    top: 100px;
+}
+
+.right-bot-cont a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color:#59a68f
+}
