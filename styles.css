@@ -35,7 +35,6 @@ body{
 }
 
 .logo-container{
-
     position: absolute;
     bottom: 0;
     left: 0;
@@ -58,7 +57,6 @@ body{
 }
 
 .logo-background{
-
     position: absolute;
     bottom: 0;
     left: 0;
@@ -88,18 +86,15 @@ body{
     width: 75%;
     height: 35%;
     position: relative;
-    
 }
 
 
 
 .right-top-text{
-
     position: absolute;
     overflow: hidden;
     left: 90px;
     bottom: 90px;
-
 }
 
 
@@ -111,22 +106,27 @@ body{
     font-family: 'Open Sans', sans-serif;
     position: relative;
     overflow: hidden;
-    
 }
 
 .right-mid-cont{
-    
     position: absolute;
     left: 90px;
     top: 45px;
     background-color: white;
-    
 }
 
 .right-mid-cont p{
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 1.4em;
+}
+
+#message {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 0.9em;
+    color: rgb(244, 56, 19);
+    margin-top: 5px;
 }
 
 .right-bot{
@@ -156,7 +156,6 @@ input {
 }
 
 label {
-
     font-size: 12px;
     font-weight: 400;
     letter-spacing: 0.2em;
@@ -164,13 +163,10 @@ label {
 }
 
 .right-bot-cont{
-
     position: relative;
-
 }
 
 .signup-btn{
-
     position: absolute;
     left: 90px;
     top: 40px;
@@ -186,12 +182,13 @@ label {
     
 
 .signup-btn:hover{
-
     background-color: #8ad0bb;
-    /*
-    transition: transform .5s ease;
-    transform: scale(1.03);
-    */
+}
+
+.signup-btn:active{
+    background-color: #8ad0bb;
+    transition: transform .3s ease;
+    transform: scale(1.05);
 }
 
 .right-bot-cont p{
